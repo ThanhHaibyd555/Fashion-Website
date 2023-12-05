@@ -1,0 +1,76 @@
+.container {
+  max-width: 144rem;
+  padding: 0 8rem;
+  margin: 0 auto;
+}
+
+.ctn-browse{
+  max-width: 128rem;
+  padding: 8rem 6rem;
+  margin: 0 auto;
+}
+.ctn-ctm{
+   max-width: 128rem;
+   margin:0 auto;
+}
+.ctn-footer{
+  max-width: 128rem;
+  margin:0 auto;
+}
+
+.grid {
+  display: grid;
+}
+.grid--2-cols {
+  grid-template-columns: repeat(2,1fr);
+}
+.grid--2-cols-br1 {
+  grid-template-columns: 1.3fr 2fr;
+  gap: 2rem;
+}
+.grid--2-cols-br2 {
+  grid-template-columns: 2fr 1.3fr;
+  gap:2rem;
+}
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid--2-rows {
+  grid-template-rows: 2fr 1fr ;
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+.grid--footer-cols {
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 0.8fr;
+}
+.hero-description{
+    font-size: 1.6rem;
+    color: #777;
+    margin-bottom: 4.2rem;
+}
+
+.btn{
+    font-size: 1.6rem;
+    padding: 1.4rem 6.8rem;
+    border: 1px solid rgb(234, 230, 239);
+    border-radius: 50px; 
+    font-family: inherit;
+    cursor: pointer;
+}
+.margin-bt{
+  margin-bottom: 5rem  !important;
+}
+.margin-top{
+  padding: 3rem 0  !important;
+}
+
+.margin-bt-line{
+  padding:  5rem 0 !important;
+  border-bottom: 1px solid #eae2e2;
+}
+
